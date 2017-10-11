@@ -1,0 +1,48 @@
+1. Make a video in which you explain what 'recursion' is. 
+-Give an example that is easy to understand that has nothing to do with code.
+-Give an example in code using javascript.
+
+(30 points)
+
+Put all your code into a directory called homework4 and your code in a file inside that directory called homework4.js
+
+3. Create a function called 'triangleStars' that prints an upside-down triangle to the console of the given height. So if we call your function with triangleStars(4), we should see:
+
+*******
+*****
+***
+*
+(10 points)
+
+4. Create a function called pow which takes two arguments, base and n. It should than return the result of multiplying the base times itself n time (that is to say, return base to the power of n). Example: pow(2, 3) should return 8. Remember that your function should work with any two positive integers greater than 1.
+
+(10 points)
+
+5. Write a function that reverses a string with recursion. Example: reverse('abcd') should return 'dcba'. Some things to know about strings: 
+-.length will give you the length of the string. Example: 'abc'.length returns 3
+-You can access any character of a string using brackets: 'abcde'[2] returns 'c'.
+Note that indexes begin with 0. So 'abcde'[0] will return 'a'
+Hint: 
+const str = 'abcd';
+reverse(str) is the same thing as:
+str[3] + str[2] + str[1] + str[0]; // which will result in 'dcba'
+
+(10 points)
+
+6. Create a function called checkerboard which, given a size argument, will draw an n by n checkerboard on the screen. Example: checkerboard(5)
+* * * * *
+* * * * *
+* * * * *
+* * * * *
+* * * * *
+(10 points)
+
+6. Make a screencast where you explain your reverse code. Remember that your face needs to be visible in the screencast. In the video, you should go through your code explaining what it does, how it works, etc. Assume you are explaining your code to someone who does not know programming.
+(30 points)
+
+
+Extra credit
+Write a function that takes height as an argument and draws a sailboat of that height on the screen using '*' characters. 
+The sailboat should have a mast, at least one sail and a hull (the body). Then, make a screencast in which you explain your code. 
+NOTE: If your explanation in the video is unclear, you will not receive any credit.
+(35 bonus points) <- this is how you raise your homework grades
